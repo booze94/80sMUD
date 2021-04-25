@@ -1,12 +1,11 @@
-<p align="center"><img class="readme-logo" src="https://raw.githubusercontent.com/RanvierMUD/docs/master/resources/logo.png"></p>
 
-# ranvier
+# 80sMUD
 
-## Node.js-based MUD engine
+## Node.js-based MUD 
 
-Ranvier is a [MUD](https://en.wikipedia.org/wiki/MUD) game engine whose goal is to be a simple but powerful way to build whatever MUD you want with special care given to extensibility. The core code strives to be completely unopinionated toward any specific style of game while using the bundle system to build the game you want without having to dig through the engine's code.
+80sMUD is a [MUD](https://en.wikipedia.org/wiki/MUD) game being built and prototyped on the robust and feature rich [RanvierMUD](https://github.com/RanvierMUD/ranviermud) game engine.
 
-## Special Features
+## Special Features thanks to Ranvier
 
 * Robust bundle system: Nearly every aspect of the game can be modified without changing the core and allows for easy
   packaging and sharing of commands/areas/items/npcs/channels/behaviors
@@ -21,20 +20,13 @@ Ranvier is a [MUD](https://en.wikipedia.org/wiki/MUD) game engine whose goal is 
 * Quest system allowing for starting/progress/completion from any event in the game
 * Communication channels with custom audiences
 
-## Documentation
+## 80sMUD development pipeline
 
-Ranvier prides itself on having thorough documentation which is available on our website: [ranviermud.com](https://ranviermud.com)
+* Modifying the network layer, to something else beside the default which is telnet.
+* Deciding on a database for storing and protecting game data and user information such as passwords, and emails they use for account recovery.
+* Combat extension, the default is pretty good, but needs work.
+* More will be added, as soon as these basic problems are resolved.
 
-## Slack
-
-We have a Slack channel you can use to ask questions, suggest features, or just keep up to date with the project: [https://ranviermud.slack.com](https://ranviermud.slack.com)
-
-[Get an invite](https://join.slack.com/t/ranviermud/shared_invite/enQtODA1NTI4MTc5MjgyLWU1OTI2YTYxMTcwYTBjNmIyMzhmMWZmNTQ3ZmFiMWEwYjQ5N2MyYWQzODFhZDUwNmZiODE1ODVlNWE5NTlmYzU)
-
-## Requirements
-
-* [Node.js](https://nodejs.org) >= v10.12.0
-
-## Demo
+## Demo of RanvierMUD
 
 Point your favorite client or telnet to `ranviermud.com` port 4000. This demo server is wiped and updated from the `master` branch every hour.
