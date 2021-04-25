@@ -29,6 +29,7 @@
 
 ## When will 80sMUD release?
 80sMUD will be released when I feel it is in a playable state, I'm not looking for perfection, but I do want a quality product I can be proud of, and you can enjoy playing.
+
 TL;DR: when it's ready.
 
 ## Demo of RanvierMUD
